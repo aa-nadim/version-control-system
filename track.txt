@@ -73,3 +73,23 @@ Date:   Mon Mar 3 22:38:39 2025 +0600
     README.md file added
 
 ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git (master)
+$ git add .
+
+ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git (master)
+$ git commit -m "track.txt file added"
+[master c12fc68] track.txt file added
+ 1 file changed, 75 insertions(+)
+ create mode 100644 track.txt
+
+ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git (master)
+$ git checkout -b "git-branch-learn-01"
+Switched to a new branch 'git-branch-learn-01'
+
+ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git (git-branch-learn-01)
+$ ls
+README.md  track.txt
+
+ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git (git-branch-learn-01)
+$ git branch
+* git-branch-learn-01
+  master

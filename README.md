@@ -1,10 +1,10 @@
-# Git
+# Version Control System (VCS)
 
 ### Questions
 
 1. switch vs checkout
+2. fetch vs pull
 
-## Version Control System (VCS)
 
 ```
 git add .
@@ -33,3 +33,5 @@ git remote add origin git@github.com:aa-nadim/version-control-system.git
 $ git switch -c main
 
 ```
+
+

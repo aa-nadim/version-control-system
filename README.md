@@ -1,25 +1,35 @@
 # Git
 
+### Questions
+
+1. switch vs checkout
+
 ## Version Control System (VCS)
 
 ```
-ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git (master)
-$ git init
-Reinitialized existing Git repository in C:/Users/ASUS/Desktop/DevOps/Git/.git/
+git add .
 
-ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git (master)
-$ ls
+git reset
 
-ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git (master)
-$ ls -a
-./  ../  .git/
 
-ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git (master)
-$ cd .git
+alies.co
 
-ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git/.git (GIT_DIR!)
-$ ls
-config  description  HEAD  hooks/  info/  objects/  refs/
 
-ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git/.git (GIT_DIR!)
+vim [it is a cli editor]
+
+
+git remote
+
+git remote -v
+
+origin  https://github.com/aa-nadim/version-control-system.git (fetch)
+origin  https://github.com/aa-nadim/version-control-system.git (push)
+
+git remote remove origin
+
+
+git remote add origin git@github.com:aa-nadim/version-control-system.git
+
+$ git switch -c main
+
 ```

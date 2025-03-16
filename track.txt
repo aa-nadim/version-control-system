@@ -93,3 +93,75 @@ ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git (git-branch-learn-01)
 $ git branch
 * git-branch-learn-01
   master
+
+ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git (git-branch-learn-01)
+$ git add .
+
+ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git (git-branch-learn-01)
+$ git commit -m "track.txt file updated in git-branch-learn-01"
+[git-branch-learn-01 f6d3cd3] track.txt file updated in git-branch-learn-01
+ 1 file changed, 21 insertions(+), 1 deletion(-)
+
+ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git (git-branch-learn-01)
+$ git checkout master
+Switched to branch 'master'
+
+ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git (master)
+$ git log
+commit c12fc68207efb9c935af8b114646bf223eaf0dd3 (HEAD -> master)
+Author: aa-nadim <nadim.ice.nstu@gmail.com>
+Date:   Mon Mar 3 22:42:45 2025 +0600
+
+    track.txt file added
+
+commit 5264f8f444afacb7d7a4eba97d9761467770ae78
+Author: aa-nadim <nadim.ice.nstu@gmail.com>
+Date:   Mon Mar 3 22:38:39 2025 +0600
+
+    README.md file added
+
+ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git (master)
+$ git checkout git-branch-learn-01
+Switched to branch 'git-branch-learn-01'
+
+ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git (git-branch-learn-01)
+$ git log
+commit f6d3cd3fbdfcdd077ccb5ad0d2741eb2569f69e7 (HEAD -> git-branch-learn-01)
+Author: aa-nadim <nadim.ice.nstu@gmail.com>
+Date:   Mon Mar 3 22:46:57 2025 +0600
+
+    track.txt file updated in git-branch-learn-01
+
+commit c12fc68207efb9c935af8b114646bf223eaf0dd3 (master)
+Author: aa-nadim <nadim.ice.nstu@gmail.com>
+Date:   Mon Mar 3 22:42:45 2025 +0600
+
+    track.txt file added
+
+commit 5264f8f444afacb7d7a4eba97d9761467770ae78
+Author: aa-nadim <nadim.ice.nstu@gmail.com>
+Date:   Mon Mar 3 22:38:39 2025 +0600
+
+    README.md file added
+
+ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git (git-branch-learn-01)
+$ git log
+commit f6d3cd3fbdfcdd077ccb5ad0d2741eb2569f69e7 (HEAD -> git-branch-learn-01)
+Author: aa-nadim <nadim.ice.nstu@gmail.com>
+Date:   Mon Mar 3 22:46:57 2025 +0600
+
+    track.txt file updated in git-branch-learn-01
+
+commit c12fc68207efb9c935af8b114646bf223eaf0dd3 (master)
+Author: aa-nadim <nadim.ice.nstu@gmail.com>
+Date:   Mon Mar 3 22:42:45 2025 +0600
+
+    track.txt file added
+
+commit 5264f8f444afacb7d7a4eba97d9761467770ae78
+Author: aa-nadim <nadim.ice.nstu@gmail.com>
+Date:   Mon Mar 3 22:38:39 2025 +0600
+
+    README.md file added
+
+ASUS@DESKTOP-KMN5I6S MINGW64 ~/Desktop/DevOps/Git (git-branch-learn-01)

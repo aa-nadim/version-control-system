@@ -4,7 +4,8 @@
 
 1. switch vs checkout
 2. fetch vs pull
-3. rebase
+3. pull vs rebase
+
 
 
 ```

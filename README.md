@@ -32,7 +32,10 @@ git remote remove origin
 
 git remote add origin git@github.com:aa-nadim/version-control-system.git
 
-$ git switch -c main
+git switch -c main
+
+git reset HEAD~n
+
 
 ```
 

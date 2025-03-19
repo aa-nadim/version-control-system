@@ -3,11 +3,19 @@
 ### Questions
 
 1. switch vs checkout
-2. fetch vs pull
-3. pull vs rebase
+2. pull request
+3. fetch vs pull
+4. pull vs rebase
+5. checkout vs switch
+6. git reset
+7. git reflog
+8. git cherry-pick <commit-hash>
+9. git stash
+
+** Merge Conflict**
 
 
-
+** github tool**
 ```
 git add .
 
